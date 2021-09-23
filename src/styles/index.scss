@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.superContenedor {
+    height: 600px;
+    width: 600px;
+    background-color: burlywood;
+    border-radius: 5%;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    text-shadow: -4px 8px 6px rgba(46,17,0,0.56);
+    margin-top: 20px;
+}
+
+.contenedorTareas {
+    width: 400px;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin-left: -13px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 3px;
+    background-color: wheat;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-shadow: -1px 3px 15px 0px rgba(0,0,0,0.84); 
+    box-shadow: -1px 3px 15px 0px rgba(0,0,0,0.84);
+    font-size: 16px;
+    align-items: center;
+}
